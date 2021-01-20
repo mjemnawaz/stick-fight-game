@@ -1,0 +1,56 @@
+/* Reusable Classes */
+
+.titleScreens {
+	-fx-background-image: url("../../images/titleScreenBackgroundImage.jpg");
+    -fx-background-size: cover;   
+    -fx-background-position: center center;
+}
+
+/* Section 1 - Title Screen  */
+
+#titleLabel {
+	-fx-font-family: Inconsolata;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-font-size: 5em;
+}
+
+.titleScreenButton {
+	-fx-font-size: 2em;
+	-fx-text-fill: white;
+	-fx-font-family: Inconsolata;
+	-fx-background-color: rgba(0, 0, 0, 0.6);
+	-fx-outline: none;
+}
+
+/* Section 2 - Login Screen */
+
+#loginTitleLabel {
+	-fx-font-family: Inconsolata;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-font-size: 3em;
+}
+
+#loginModal {
+	-fx-border-radius: 5;
+	-fx-background-color: rgba(0, 0, 0, 0.6);
+}
+
+#loginButton {
+	-fx-text-fill: white;
+	-fx-background-color: rgba(0, 24, 71, 0.95);
+	-fx-font-size: 1.8em;
+}
+
+.loginPageLabels {
+	-fx-text-fill: white;
+	-fx-font-size: 2em;
+	-fx-font-weight: lighter;
+}
+
+.loginTextFields {
+	-fx-text-fill: white;
+	-fx-background-color: rgba(111, 111, 111, 0.7);
+	-fx-font-size: 2em;
+}
